@@ -1,0 +1,229 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.nav-img img {
+  margin: 8.3rem auto 8.7rem auto;
+}
+
+/* ******************* 
+        HEADER
+ ******************* */
+
+.contaner-header {
+  margin-bottom: 22.3rem;
+}
+
+.header {
+  position: relative;
+}
+
+.header h1 {
+  color: var(--color-slate-900, #28283d);
+  font-size: 6.4rem;
+  font-weight: 900;
+  line-height: 110%; /* 7.04rem */
+}
+
+.header p {
+  color: var(--color-slate-600, #87879d);
+
+  /* desktop/text-preset-4 */
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 150%; /* 2.7rem */
+  margin: 3.2rem 0 3.2rem 0;
+}
+
+.btn-header button:first-child {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+
+  background: var(--color-cyan-600, #4d96a9);
+  padding: 11px 29px;
+  border: none;
+  border-radius: 2.9rem;
+  margin-right: 1.7rem;
+  cursor: pointer;
+}
+
+.btn-header button:first-child:hover {
+  background-color: #71c0d4;
+}
+
+.btn-header button:last-child {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  background: var(--color-cyan-600, #855fb1);
+  padding: 11px 29px;
+  border: none;
+  border-radius: 2.9rem;
+  cursor: pointer;
+}
+
+.btn-header button:last-child:hover {
+  background-color: #b18bdd;
+}
+
+.btn-header span {
+  color: var(--color-purple-300, #8fe3f9);
+  padding-left: 5px;
+}
+
+.side-img img:first-child {
+  position: absolute;
+  top: 150px;
+  left: -25px;
+}
+
+.side-img img:last-child {
+  position: absolute;
+  top: 150px;
+  right: -25px;
+}
+
+/* ******************* 
+  meeting-section
+ ******************* */
+
+.border {
+  position: relative;
+}
+
+.border::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  width: 2px;
+  height: 8rem; /* Adjusted height to make the border taller */
+  background-color: #d1d1df;
+}
+
+.border p {
+  color: var(--color-slate-600, #87879d);
+
+  /* desktop/text-preset-5 */
+  font-family: "Red Hat Display";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 2.4rem */
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+  border: 1px solid #d1d1df;
+  margin: 0 auto 6.4rem auto;
+  padding-top: 1.5rem;
+}
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  margin-bottom: 5rem;
+}
+
+.img-flex img {
+  width: 27rem;
+}
+
+.meeting-text p:first-child {
+  color: var(--color-cyan-600, #4d96a9);
+
+  /* desktop/text-preset-3 */
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 110%; /* 1.76rem */
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.meeting-text h2 {
+  color: var(--color-slate-900, #28283d);
+
+  /* desktop/text-preset-2 */
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 110%; /* 4.4rem */
+  margin-bottom: 3.2rem;
+}
+
+.meeting-text p:last-child {
+  color: var(--color-slate-600, #87879d);
+
+  /* desktop/text-preset-4 */
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 150%; /* 2.7rem */
+  margin-bottom: 18rem;
+}
+
+/* ******************* 
+  meeting-section
+ ******************* */
+
+.border {
+}
+
+.one-down {
+  position: relative;
+}
+
+.one-down::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  width: 2px;
+  height: 8rem; /* Adjusted height to make the border taller */
+  background-color: #d1d1df;
+}
+
+.footer {
+  height: 31.2rem;
+  display: flex;
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
+    url(/starter-code/assets/desktop/image-footer.jpg) lightgray 50% / cover
+      no-repeat;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.footer h3 {
+  color: var(--color-white, #fafafa);
+  /* desktop/text-preset-2 */
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 110%; /* 4.4rem */
+}
+
+.footer p {
+  color: var(--color-white, #fafafa);
+  /* desktop/text-preset-4 */
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 150%; /* 2.7rem */
+}
+
+.footer button {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  background: var(--color-cyan-600, #855fb1);
+  padding: 11px 29px;
+  border: none;
+  border-radius: 2.9rem;
+  margin-right: 1.7rem;
+}
+
+.footer span {
+  color: var(--color-purple-300, #d9b8ff);
+  padding-left: 5px;
+}
