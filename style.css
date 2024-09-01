@@ -189,8 +189,7 @@ body {
   height: 31.2rem;
   display: flex;
   background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)),
-    url(/starter-code/assets/desktop/image-footer.jpg) lightgray 50% / cover
-      no-repeat;
+    url(/assets/desktop/image-footer.jpg) lightgray 50% / cover no-repeat;
   justify-content: space-around;
   align-items: center;
   position: relative;
